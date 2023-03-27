@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+header {
+    background: rgba(20, 137, 255, 0.9);
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    display: flex;
+    top: 0;
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+    /* justify-content:flex-start;
+    align-items: center; */
+  }
+
+p {
+  font-size: 25px;
+}
