@@ -2,17 +2,43 @@
 
 header {
     background: rgba(20, 137, 255, 0.9);
-    font-family:'Courier New', Courier, monospace;
     color: white;
-    display: flex;
-    top: 0;
-    font-size: 50px;
-    text-align: center;
-    font-weight: normal;
+    font-family:"fantasy";
+    top: 0%;
+    text-align: "center";
+    font-weight:600;
     /* justify-content:flex-start;
     align-items: center; */
   }
 
 p {
   font-size: 25px;
+}
+
+.menu {
+  width: 800px;
+  overflow: hidden;
+  margin: 150px auto;
+}
+
+.menu > li {
+  width: 20%; /*20*5=100%*/
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  background-color: #5778ff;
+}
+
+.menu a {
+  color: #fff;
+}
+
+.submenu > li {
+  line-height: 50px;
+  background-color: #94a9ff;
+}
+
+.submenu {
+  height: 0; /*ul의 높이를 안보이게 처리*/
+  overflow: hidden;
 }
