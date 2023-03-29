@@ -9,23 +9,24 @@ header {
     font-weight:600;
     /* justify-content:flex-start;
     align-items: center; */
-}
+  }
 
 p {
-    font-size: 25px;
+  font-size: 40px;
 }
 
 .menu {
-    width: 800px;
-    overflow: hidden;
-    margin: 150px auto;
+  width: 800px;
+  overflow: hidden;
+  margin: 150px auto;
 }
 
 li {
-    float:left;
-    list-style: none;
-    width:13.8%;
-    height: 20%;
-    text-align: center;
-    background-color: rgb(30, 195, 255);
+  float:left;
+  list-style: none;
+  text-decoration: none;
+  width:13.8%;
+  height: 20%;
+  text-align: center;
+  background-color: rgb(30, 195, 255);
 }
